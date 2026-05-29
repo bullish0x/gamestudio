@@ -509,6 +509,53 @@ web skill library automatically:
 You can also invoke any reference skill directly (e.g. `/pixi-assets`,
 `/phaser-tilemaps`, `/threejs-lighting`).
 
+### Bringing it to an existing game (worked examples)
+
+GameStudio works *backwards* from code you already have: install it, reconstruct
+the design/architecture docs that were never written, then drive new work — or a
+refactor — through the pipeline, with version-pinned engine specialists doing the
+hands-on work.
+
+**You have an existing Three.js game and want to extend it properly**
+
+1. Install the studio brain (see [Existing project](#existing-project)), then `claude`.
+2. **`/project-stage-detect`** — finds source but no design/architecture docs and
+   tells you where you actually stand.
+3. **`/setup-engine threejs`** — pins your installed `three` version so
+   `threejs-specialist` validates APIs against it (no guessing on deprecated calls).
+4. **`/reverse-document`** — reads your scene / render-loop / asset code and writes
+   the GDD + architecture docs that only lived in your head. Scope it per system
+   if the codebase is large. Now the studio actually understands your game.
+5. **`/adopt`** — audits those reconstructed docs against the studio's formats and
+   hands you a numbered migration plan to close the gaps.
+6. Build features the normal way: **`/create-stories` → `/dev-story`** (routes to
+   `threejs-specialist`, pulling the `threejs-*` skills; GLSL → `webgl-shader-specialist`,
+   assets → `web3d-asset-pipeline`) **→ `/code-review` → `/story-done`**. The
+   `src/scenes/**` and `src/shaders/**` rules enforce disposal, no per-frame
+   allocation, color-space correctness, etc. as you edit.
+
+**You want to refactor a PixiJS game "the proper way"**
+
+1. Install + `claude`, then **`/setup-engine pixijs`** (PixiJS v8 pinned).
+2. **`/reverse-document`** per subsystem — capture the *as-is* architecture so the
+   refactor starts from a written baseline, not memory.
+3. **`/create-architecture` + `/architecture-decision`** — define the *target*:
+   e.g. lift game state out of the Pixi stage into systems, move to manifest-keyed
+   assets, isolate filters. `pixijs-specialist` holds the line that the render
+   layer *reads state and emits events* rather than owning it.
+4. **`/create-control-manifest`** turns those decisions into a flat rules sheet
+   that **`/code-review`** checks every change against — so the refactor can't
+   silently drift back.
+5. **`/create-epics` → `/create-stories`** break the refactor into safe, ordered
+   steps; **`/dev-story`** implements each (`pixijs-specialist` + `web2d-asset-pipeline`
+   + `webgl-shader-specialist`).
+6. **`/qa-plan` + `/regression-suite`** so the refactor doesn't quietly break what
+   already worked.
+
+The throughline: **docs first (even reverse-engineered), then incremental stories,
+with version-pinned engine specialists and reviewed against a control manifest** —
+that's "the proper way," applied to code that already exists.
+
 ### 4. Control the rigor
 
 Set review intensity with `--review` on any skill, or in `production/review-mode.txt`:
