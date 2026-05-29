@@ -1,0 +1,1768 @@
+version: 2
+last_updated: "2026-05-29"
+skills:
+  # Critical — gate skills that control phase transitions
+  - name: gate-check
+    spec: GameStudio Skill Testing Framework/skills/gate/gate-check.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: gate
+
+  - name: design-review
+    spec: GameStudio Skill Testing Framework/skills/review/design-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: review
+
+  - name: story-readiness
+    spec: GameStudio Skill Testing Framework/skills/readiness/story-readiness.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: readiness
+
+  - name: story-done
+    spec: GameStudio Skill Testing Framework/skills/readiness/story-done.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: readiness
+
+  - name: review-all-gdds
+    spec: GameStudio Skill Testing Framework/skills/review/review-all-gdds.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: review
+
+  - name: architecture-review
+    spec: GameStudio Skill Testing Framework/skills/review/architecture-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: critical
+    category: review
+
+  # High — pipeline-critical skills
+  - name: create-epics
+    spec: GameStudio Skill Testing Framework/skills/pipeline/create-epics.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: create-stories
+    spec: GameStudio Skill Testing Framework/skills/pipeline/create-stories.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: dev-story
+    spec: GameStudio Skill Testing Framework/skills/pipeline/dev-story.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: create-control-manifest
+    spec: GameStudio Skill Testing Framework/skills/pipeline/create-control-manifest.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: propagate-design-change
+    spec: GameStudio Skill Testing Framework/skills/pipeline/propagate-design-change.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: architecture-decision
+    spec: GameStudio Skill Testing Framework/skills/authoring/architecture-decision.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: authoring
+
+  - name: map-systems
+    spec: GameStudio Skill Testing Framework/skills/pipeline/map-systems.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pipeline
+
+  - name: design-system
+    spec: GameStudio Skill Testing Framework/skills/authoring/design-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: authoring
+
+  - name: consistency-check
+    spec: GameStudio Skill Testing Framework/skills/analysis/consistency-check.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: analysis
+
+  # Medium — team and sprint management skills
+  - name: sprint-plan
+    spec: GameStudio Skill Testing Framework/skills/sprint/sprint-plan.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: sprint
+
+  - name: sprint-status
+    spec: GameStudio Skill Testing Framework/skills/sprint/sprint-status.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: sprint
+
+  - name: team-ui
+    spec: GameStudio Skill Testing Framework/skills/team/team-ui.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: team-combat
+    spec: GameStudio Skill Testing Framework/skills/team/team-combat.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: team-narrative
+    spec: GameStudio Skill Testing Framework/skills/team/team-narrative.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: team-audio
+    spec: GameStudio Skill Testing Framework/skills/team/team-audio.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: team-level
+    spec: GameStudio Skill Testing Framework/skills/team/team-level.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: team-polish
+    spec: GameStudio Skill Testing Framework/skills/team/team-polish.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: team-release
+    spec: GameStudio Skill Testing Framework/skills/team/team-release.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: team-live-ops
+    spec: GameStudio Skill Testing Framework/skills/team/team-live-ops.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  - name: team-qa
+    spec: GameStudio Skill Testing Framework/skills/team/team-qa.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: team
+
+  # Low — analysis, reporting, utility skills
+  - name: skill-test
+    spec: GameStudio Skill Testing Framework/skills/utility/skill-test.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: utility
+
+  - name: skill-improve
+    spec: GameStudio Skill Testing Framework/skills/utility/skill-improve.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: start
+    spec: GameStudio Skill Testing Framework/skills/utility/start.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: help
+    spec: GameStudio Skill Testing Framework/skills/utility/help.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: brainstorm
+    spec: GameStudio Skill Testing Framework/skills/utility/brainstorm.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: project-stage-detect
+    spec: GameStudio Skill Testing Framework/skills/utility/project-stage-detect.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: setup-engine
+    spec: GameStudio Skill Testing Framework/skills/utility/setup-engine.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: quick-design
+    spec: GameStudio Skill Testing Framework/skills/authoring/quick-design.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: authoring
+
+  - name: ux-design
+    spec: GameStudio Skill Testing Framework/skills/authoring/ux-design.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: authoring
+
+  - name: ux-review
+    spec: GameStudio Skill Testing Framework/skills/authoring/ux-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: authoring
+
+  - name: art-bible
+    spec: GameStudio Skill Testing Framework/skills/authoring/art-bible.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: authoring
+
+  - name: create-architecture
+    spec: GameStudio Skill Testing Framework/skills/authoring/create-architecture.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: authoring
+
+  - name: code-review
+    spec: GameStudio Skill Testing Framework/skills/analysis/code-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: balance-check
+    spec: GameStudio Skill Testing Framework/skills/analysis/balance-check.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: asset-audit
+    spec: GameStudio Skill Testing Framework/skills/analysis/asset-audit.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: content-audit
+    spec: GameStudio Skill Testing Framework/skills/analysis/content-audit.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: tech-debt
+    spec: GameStudio Skill Testing Framework/skills/analysis/tech-debt.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: scope-check
+    spec: GameStudio Skill Testing Framework/skills/analysis/scope-check.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: estimate
+    spec: GameStudio Skill Testing Framework/skills/analysis/estimate.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: perf-profile
+    spec: GameStudio Skill Testing Framework/skills/analysis/perf-profile.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: security-audit
+    spec: GameStudio Skill Testing Framework/skills/analysis/security-audit.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: test-evidence-review
+    spec: GameStudio Skill Testing Framework/skills/analysis/test-evidence-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: test-flakiness
+    spec: GameStudio Skill Testing Framework/skills/analysis/test-flakiness.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: analysis
+
+  - name: reverse-document
+    spec: GameStudio Skill Testing Framework/skills/utility/reverse-document.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: bug-report
+    spec: GameStudio Skill Testing Framework/skills/utility/bug-report.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: hotfix
+    spec: GameStudio Skill Testing Framework/skills/utility/hotfix.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: prototype
+    spec: GameStudio Skill Testing Framework/skills/utility/prototype.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: playtest-report
+    spec: GameStudio Skill Testing Framework/skills/utility/playtest-report.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: milestone-review
+    spec: GameStudio Skill Testing Framework/skills/sprint/milestone-review.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: sprint
+
+  - name: retrospective
+    spec: GameStudio Skill Testing Framework/skills/sprint/retrospective.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: sprint
+
+  - name: changelog
+    spec: GameStudio Skill Testing Framework/skills/sprint/changelog.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: sprint
+
+  - name: patch-notes
+    spec: GameStudio Skill Testing Framework/skills/sprint/patch-notes.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: sprint
+
+  - name: onboard
+    spec: GameStudio Skill Testing Framework/skills/utility/onboard.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: localize
+    spec: GameStudio Skill Testing Framework/skills/utility/localize.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: launch-checklist
+    spec: GameStudio Skill Testing Framework/skills/utility/launch-checklist.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: release-checklist
+    spec: GameStudio Skill Testing Framework/skills/utility/release-checklist.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: adopt
+    spec: GameStudio Skill Testing Framework/skills/utility/adopt.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: smoke-check
+    spec: GameStudio Skill Testing Framework/skills/utility/smoke-check.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: soak-test
+    spec: GameStudio Skill Testing Framework/skills/utility/soak-test.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: test-setup
+    spec: GameStudio Skill Testing Framework/skills/utility/test-setup.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: test-helpers
+    spec: GameStudio Skill Testing Framework/skills/utility/test-helpers.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: regression-suite
+    spec: GameStudio Skill Testing Framework/skills/utility/regression-suite.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: qa-plan
+    spec: GameStudio Skill Testing Framework/skills/utility/qa-plan.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: bug-triage
+    spec: GameStudio Skill Testing Framework/skills/utility/bug-triage.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: asset-spec
+    spec: GameStudio Skill Testing Framework/skills/utility/asset-spec.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+  - name: day-one-patch
+    spec: GameStudio Skill Testing Framework/skills/utility/day-one-patch.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: low
+    category: utility
+
+
+  # Web game-dev skills + pre-production gate (added 2026-05-29)
+
+  - name: ai-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/ai-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: audio-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/audio-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: battery-optimization
+    spec: GameStudio Skill Testing Framework/skills/mobile/battery-optimization.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: mobile
+
+  - name: camera-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/camera-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: collision-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/collision-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: ecs-architecture
+    spec: GameStudio Skill Testing Framework/skills/ecs/ecs-architecture.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: ecs
+
+  - name: ecs-component-patterns
+    spec: GameStudio Skill Testing Framework/skills/ecs/ecs-component-patterns.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: ecs
+
+  - name: ecs-events
+    spec: GameStudio Skill Testing Framework/skills/ecs/ecs-events.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: ecs
+
+  - name: ecs-performance
+    spec: GameStudio Skill Testing Framework/skills/ecs/ecs-performance.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: ecs
+
+  - name: ecs-queries
+    spec: GameStudio Skill Testing Framework/skills/ecs/ecs-queries.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: ecs
+
+  - name: ecs-serialization
+    spec: GameStudio Skill Testing Framework/skills/ecs/ecs-serialization.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: ecs
+
+  - name: ecs-system-patterns
+    spec: GameStudio Skill Testing Framework/skills/ecs/ecs-system-patterns.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: ecs
+
+  - name: health-combat-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/health-combat-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: input-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/input-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: inventory-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/inventory-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: level-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/level-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: memory-management
+    spec: GameStudio Skill Testing Framework/skills/mobile/memory-management.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: mobile
+
+  - name: mobile-performance
+    spec: GameStudio Skill Testing Framework/skills/mobile/mobile-performance.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: mobile
+
+  - name: phaser-2d-game
+    spec: GameStudio Skill Testing Framework/skills/web/phaser-2d-game.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: web
+
+  - name: physics-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/physics-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: r3f-component-patterns
+    spec: GameStudio Skill Testing Framework/skills/react/r3f-component-patterns.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: react
+
+  - name: r3f-ecs-integration
+    spec: GameStudio Skill Testing Framework/skills/react/r3f-ecs-integration.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: react
+
+  - name: r3f-mobile-patterns
+    spec: GameStudio Skill Testing Framework/skills/react/r3f-mobile-patterns.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: react
+
+  - name: r3f-performance
+    spec: GameStudio Skill Testing Framework/skills/react/r3f-performance.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: react
+
+  - name: r3f-state-management
+    spec: GameStudio Skill Testing Framework/skills/react/r3f-state-management.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: react
+
+  - name: react-three-fiber-setup
+    spec: GameStudio Skill Testing Framework/skills/react/react-three-fiber-setup.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: react
+
+  - name: spawn-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/spawn-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: threejs-animation
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-animation.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-animation-systems
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-animation-systems.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-best-practices
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-best-practices.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-camera-controls
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-camera-controls.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-environment-maps
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-environment-maps.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-fog
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-fog.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-geometry-management
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-geometry-management.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-instancing-advanced
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-instancing-advanced.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-lighting
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-lighting.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-loaders
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-loaders.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-material-systems
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-material-systems.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-math-utilities
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-math-utilities.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-model-loading
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-model-loading.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-particles
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-particles.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-pbr-materials
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-pbr-materials.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-performance-profiling
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-performance-profiling.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-post-processing
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-post-processing.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-postprocessing
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-postprocessing.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-raycasting
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-raycasting.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-scene-setup
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-scene-setup.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: threejs
+
+  - name: threejs-shaders
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-shaders.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-shadows
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-shadows.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-sprites
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-sprites.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: threejs-texture-management
+    spec: GameStudio Skill Testing Framework/skills/threejs/threejs-texture-management.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: threejs
+
+  - name: touch-input-handling
+    spec: GameStudio Skill Testing Framework/skills/mobile/touch-input-handling.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: mobile
+
+  - name: typescript-ecs-types
+    spec: GameStudio Skill Testing Framework/skills/typescript/typescript-ecs-types.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: typescript
+
+  - name: typescript-game-types
+    spec: GameStudio Skill Testing Framework/skills/typescript/typescript-game-types.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: typescript
+
+  - name: typescript-performance
+    spec: GameStudio Skill Testing Framework/skills/typescript/typescript-performance.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: typescript
+
+  - name: ui-system
+    spec: GameStudio Skill Testing Framework/skills/game-systems/ui-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: game-systems
+
+  - name: vertical-slice
+    spec: GameStudio Skill Testing Framework/skills/gate/vertical-slice.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: gate
+
+  - name: web-game-foundations
+    spec: GameStudio Skill Testing Framework/skills/web/web-game-foundations.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: web
+
+agents:
+  # Tier 1 Directors (Opus)
+  - name: creative-director
+    spec: GameStudio Skill Testing Framework/agents/directors/creative-director.md
+    last_spec: ""
+    last_spec_result: ""
+    category: director
+
+  - name: technical-director
+    spec: GameStudio Skill Testing Framework/agents/directors/technical-director.md
+    last_spec: ""
+    last_spec_result: ""
+    category: director
+
+  - name: producer
+    spec: GameStudio Skill Testing Framework/agents/directors/producer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: director
+
+  - name: art-director
+    spec: GameStudio Skill Testing Framework/agents/directors/art-director.md
+    last_spec: ""
+    last_spec_result: ""
+    category: director
+
+  # Tier 2 Leads (Sonnet)
+  - name: lead-programmer
+    spec: GameStudio Skill Testing Framework/agents/leads/lead-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: lead
+
+  - name: qa-lead
+    spec: GameStudio Skill Testing Framework/agents/leads/qa-lead.md
+    last_spec: ""
+    last_spec_result: ""
+    category: lead
+
+  - name: narrative-director
+    spec: GameStudio Skill Testing Framework/agents/leads/narrative-director.md
+    last_spec: ""
+    last_spec_result: ""
+    category: lead
+
+  - name: audio-director
+    spec: GameStudio Skill Testing Framework/agents/leads/audio-director.md
+    last_spec: ""
+    last_spec_result: ""
+    category: lead
+
+  - name: game-designer
+    spec: GameStudio Skill Testing Framework/agents/leads/game-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: lead
+
+  - name: systems-designer
+    spec: GameStudio Skill Testing Framework/agents/leads/systems-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: lead
+
+  - name: level-designer
+    spec: GameStudio Skill Testing Framework/agents/leads/level-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: lead
+
+  # Core Specialists (Sonnet)
+  - name: gameplay-programmer
+    spec: GameStudio Skill Testing Framework/agents/specialists/gameplay-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: ai-programmer
+    spec: GameStudio Skill Testing Framework/agents/specialists/ai-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: technical-artist
+    spec: GameStudio Skill Testing Framework/agents/specialists/technical-artist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: sound-designer
+    spec: GameStudio Skill Testing Framework/agents/specialists/sound-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: engine-programmer
+    spec: GameStudio Skill Testing Framework/agents/specialists/engine-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: tools-programmer
+    spec: GameStudio Skill Testing Framework/agents/specialists/tools-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: network-programmer
+    spec: GameStudio Skill Testing Framework/agents/specialists/network-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: security-engineer
+    spec: GameStudio Skill Testing Framework/agents/qa/security-engineer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: qa
+
+  - name: accessibility-specialist
+    spec: GameStudio Skill Testing Framework/agents/qa/accessibility-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: qa
+
+  - name: ux-designer
+    spec: GameStudio Skill Testing Framework/agents/specialists/ux-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: ui-programmer
+    spec: GameStudio Skill Testing Framework/agents/specialists/ui-programmer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: performance-analyst
+    spec: GameStudio Skill Testing Framework/agents/specialists/performance-analyst.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  # Engine Specialists — Godot
+  - name: godot-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/godot/godot-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: godot-gdscript-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/godot/godot-gdscript-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: godot-csharp-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/godot/godot-csharp-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: godot-shader-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/godot/godot-shader-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: godot-gdextension-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/godot/godot-gdextension-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  # Engine Specialists — Unity
+  - name: unity-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/unity/unity-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: unity-ui-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/unity/unity-ui-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: unity-shader-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/unity/unity-shader-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: unity-dots-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/unity/unity-dots-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: unity-addressables-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/unity/unity-addressables-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  # Engine Specialists — Unreal
+  - name: unreal-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/unreal/unreal-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: ue-blueprint-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/unreal/ue-blueprint-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: ue-gas-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/unreal/ue-gas-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: ue-umg-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/unreal/ue-umg-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: ue-replication-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/unreal/ue-replication-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  # Operations
+  - name: devops-engineer
+    spec: GameStudio Skill Testing Framework/agents/operations/devops-engineer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: operations
+
+  - name: release-manager
+    spec: GameStudio Skill Testing Framework/agents/operations/release-manager.md
+    last_spec: ""
+    last_spec_result: ""
+    category: operations
+
+  - name: live-ops-designer
+    spec: GameStudio Skill Testing Framework/agents/operations/live-ops-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: operations
+
+  - name: community-manager
+    spec: GameStudio Skill Testing Framework/agents/operations/community-manager.md
+    last_spec: ""
+    last_spec_result: ""
+    category: operations
+
+  - name: analytics-engineer
+    spec: GameStudio Skill Testing Framework/agents/operations/analytics-engineer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: operations
+
+  - name: economy-designer
+    spec: GameStudio Skill Testing Framework/agents/operations/economy-designer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: operations
+
+  - name: localization-lead
+    spec: GameStudio Skill Testing Framework/agents/operations/localization-lead.md
+    last_spec: ""
+    last_spec_result: ""
+    category: operations
+
+  # QA & Creative
+  - name: qa-tester
+    spec: GameStudio Skill Testing Framework/agents/qa/qa-tester.md
+    last_spec: ""
+    last_spec_result: ""
+    category: qa
+
+  - name: prototyper
+    spec: GameStudio Skill Testing Framework/agents/specialists/prototyper.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: writer
+    spec: GameStudio Skill Testing Framework/agents/specialists/writer.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  - name: world-builder
+    spec: GameStudio Skill Testing Framework/agents/specialists/world-builder.md
+    last_spec: ""
+    last_spec_result: ""
+    category: specialist
+
+  # Web engine specialists (added 2026-05-29)
+
+  - name: threejs-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/web/threejs-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: webgl-shader-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/web/webgl-shader-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: web3d-asset-pipeline
+    spec: GameStudio Skill Testing Framework/agents/engine/web/web3d-asset-pipeline.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: pixijs-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/web/pixijs-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine

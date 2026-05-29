@@ -1,0 +1,16 @@
+# CODEOWNERS — auto-assigns reviewers to PRs by path
+# Format: <pattern> <@github-username or @org/team>
+# Last match wins. Docs: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owner for everything
+*                           @bullish0x
+
+# Core configuration — owner review required
+CLAUDE.md                   @bullish0x
+.claude/                    @bullish0x
+settings.json               @bullish0x
+
+# Skills and agents — high-impact, review carefully
+.claude/skills/             @bullish0x
+.claude/agents/             @bullish0x
+.claude/hooks/              @bullish0x

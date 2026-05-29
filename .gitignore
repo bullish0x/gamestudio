@@ -1,0 +1,144 @@
+# === IDE and Editor ===
+.vs/
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# === Claude Code Local ===
+.claude/settings.local.json
+CLAUDE.local.md
+production/session-logs/
+
+# === Internal Planning (not for public) ===
+
+expansions/
+
+# === Marrow (eval tooling — never commit) ===
+marrow/
+
+# === Runtime Artifacts (auto-generated, start empty on fresh clone) ===
+# Created on first use by /consistency-check and /architecture-review
+docs/consistency-failures.md
+
+# === Build Output ===
+build/
+builds/
+bin/
+obj/
+out/
+dist/
+*.exe
+*.dll
+*.so
+*.dylib
+*.app
+
+# === Engine: Godot ===
+.godot/
+*.translation
+export_presets.cfg
+# Uncomment if using Godot:
+# *.import
+
+# === Engine: Unity ===
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Uu]ser[Ss]ettings/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+crashlytics-buildid.txt
+sysinfo.txt
+# Uncomment if using Unity:
+# [Aa]ssets/[Aa]sset[Ss]tore[Tt]ools/
+
+# === Engine: Unreal ===
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+*.VC.opendb
+*.opensdf
+*.sdf
+*.cachefile
+*.VC.db
+# Uncomment if using Unreal:
+# *.uasset
+# *.umap
+
+# === Compiled Shaders ===
+*.spv
+*.cso
+*.dxbc
+
+# === Temporary and Cache ===
+*.tmp
+*.temp
+*.cache
+*.log
+__pycache__/
+*.pyc
+node_modules/
+.npm/
+
+# === Archives ===
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# === Secrets and Environment ===
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# === Large Binary Assets (use Git LFS instead) ===
+# Uncomment and configure with Git LFS for your project:
+# *.png
+# *.jpg
+# *.jpeg
+# *.wav
+# *.mp3
+# *.ogg
+# *.fbx
+# *.blend
+# *.psd
+# *.tga
+# *.exr
+# *.hdr
+
+# === OS Generated ===
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
