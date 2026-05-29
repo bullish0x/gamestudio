@@ -399,37 +399,30 @@ All hooks fail gracefully if optional tools are missing — nothing breaks, you 
 
 ### Existing project
 
-Bring the studio scaffolding into your repo, then let it audit what you already have.
-
-> ⚠️ **If your project already has a `.claude/` folder, do NOT blindly copy over it** —
-> you'd clobber your own `settings.json` (hooks/permissions) and any existing
-> agents/skills. Back it up first and **merge `settings.json` by hand**.
+Use the **installer**. It copies only the GameStudio "studio brain" (agents,
+skills, hooks, rules, studio docs, engine reference, the testing framework),
+**never overwrites your `settings.json`, `CLAUDE.md`, source, or design docs**,
+and records every file it writes so it can update or cleanly uninstall later.
 
 ```bash
-# from inside your existing project
-git clone --depth 1 https://github.com/bullish0x/gamestudio.git /tmp/gs
-
-# back up your existing Claude config if you have one
-[ -d .claude ] && cp -r .claude .claude.backup
-
-# copy the studio brain WITHOUT overwriting your own files (-n = never clobber)
-mkdir -p .claude
-cp -rn /tmp/gs/.claude/. .claude/
-cp -n  /tmp/gs/CLAUDE.md .
-cp -rn /tmp/gs/docs /tmp/gs/design /tmp/gs/production .
-# NOTE: /tmp/gs is kept on purpose — you'll merge settings.json from it next.
+git clone --depth 1 https://github.com/bullish0x/gamestudio.git /tmp/gamestudio
+bash /tmp/gamestudio/install.sh install /path/to/your/project   # omit the path to use the current dir
 ```
 
-Because of `-n`, **your existing `.claude/settings.json` is preserved** (the
-studio's copy is skipped). To pick up the studio's hooks/permissions, diff your
-file against the studio's and **merge the `hooks` and `permissions` blocks into
-yours** — don't replace the whole file:
+If a file already exists and differs from yours, the installer **skips it and
+writes a `*.gamestudio` side-file** instead — so your `settings.json` (hooks/
+permissions) and `CLAUDE.md` are preserved untouched. Diff the side-files and
+merge the studio's `hooks`/`permissions` blocks in when you're ready. On Windows,
+run it from **Git Bash**.
+
+**Update / uninstall / status** — safe by design: these only ever touch files the
+installer owns (tracked in `.claude/.gamestudio/manifest.tsv`). Files you've
+edited are kept and the new version is offered as `*.gamestudio-new`:
 
 ```bash
-# (skip this if you had no prior .claude/settings.json — the studio's is already in place)
-diff .claude/settings.json /tmp/gs/.claude/settings.json   # then merge by hand
-rm -rf /tmp/gs .claude.backup                              # clean up once you're satisfied
-claude
+bash /tmp/gamestudio/install.sh update    /path/to/your/project   # re-sync to the latest studio brain
+bash /tmp/gamestudio/install.sh uninstall /path/to/your/project   # remove only the studio brain
+bash /tmp/gamestudio/install.sh status    /path/to/your/project   # show what's installed
 ```
 
 Then in the session:
@@ -526,14 +519,19 @@ Set review intensity with `--review` on any skill, or in `production/review-mode
 
 ### Model & context
 
-Run on a **standard-context** model (`/model` → Opus or Sonnet, *not* the `[1m]`
-variant). Context-heavy skills — `/reverse-document`, `/adopt`,
-`/review-all-gdds` — read a lot of files, and on a 1M-context model that needs
-usage credits; without them you'll get a *"1M context usage credits required"*
-error. If you hit it, run `/model` to switch to standard context (or
-`/usage-credits` to enable 1M). A SessionStart hook flags this automatically if
-you start on a 1M model. For very large existing codebases, scope heavy skills to
-one system/module at a time rather than the whole repo at once.
+**GameStudio works on any Claude model** — Opus, Sonnet, standard or 1M context.
+The one gotcha is billing, not compatibility: the **1M-context variants (`[1m]`)
+need usage credits**. Context-heavy skills like `/reverse-document`, `/adopt`,
+and `/review-all-gdds` read a lot of files, so on a 1M model without credits
+you'll hit a *"1M context usage credits required"* error.
+
+Two ways through it:
+- **`/model`** → pick a standard-context Opus/Sonnet (no `[1m]`) — works with no credits. Recommended default.
+- **`/usage-credits`** → enable 1M and it works fine, big window and all.
+
+A SessionStart hook flags this automatically if you start on a 1M model. For very
+large existing codebases, scope heavy skills to one system/module at a time
+rather than the whole repo at once.
 
 ### Resuming later
 
