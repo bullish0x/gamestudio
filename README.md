@@ -524,6 +524,17 @@ Set review intensity with `--review` on any skill, or in `production/review-mode
 - **`lean`** — phase gates only (default for most solo work).
 - **`solo`** — no gates (fast prototyping).
 
+### Model & context
+
+Run on a **standard-context** model (`/model` → Opus or Sonnet, *not* the `[1m]`
+variant). Context-heavy skills — `/reverse-document`, `/adopt`,
+`/review-all-gdds` — read a lot of files, and on a 1M-context model that needs
+usage credits; without them you'll get a *"1M context usage credits required"*
+error. If you hit it, run `/model` to switch to standard context (or
+`/usage-credits` to enable 1M). A SessionStart hook flags this automatically if
+you start on a 1M model. For very large existing codebases, scope heavy skills to
+one system/module at a time rather than the whole repo at once.
+
 ### Resuming later
 
 Start a new session and run `/start` or `/help`; the session-start hook previews
