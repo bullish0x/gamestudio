@@ -1,19 +1,19 @@
 # GameStudio -- Game Studio Agent Architecture
 
-Indie game development managed through 53 coordinated Claude Code subagents.
+Indie game development managed through 55 coordinated Claude Code subagents.
 Each agent owns a specific domain, enforcing separation of concerns and quality.
 
 ## Technology Stack
 
-- **Engine**: [CHOOSE: Godot 4 / Unity / Unreal Engine 5 / Three.js (Web 3D) / PixiJS (Web 2D)]
+- **Engine**: [CHOOSE: Godot 4 / Unity / Unreal Engine 5 / Three.js (Web 3D) / PixiJS (Web 2D interactive) / Phaser (Web 2D games)]
 - **Language**: [CHOOSE: GDScript / C# / C++ / Blueprint / JS/TS]
 - **Version Control**: Git with trunk-based development
 - **Build System**: [SPECIFY after choosing engine]
 - **Asset Pipeline**: [SPECIFY after choosing engine]
 
 > **Note**: Engine-specialist agents exist for Godot, Unity, Unreal, Three.js
-> (Web 3D), and PixiJS (Web 2D) with dedicated sub-specialists. Use the set
-> matching your engine.
+> (Web 3D), PixiJS (Web 2D interactive), and Phaser (Web 2D games) with
+> dedicated sub-specialists. Use the set matching your engine.
 
 ## Project Structure
 
