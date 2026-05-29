@@ -174,6 +174,29 @@ gates, the gate mode logic must also be correct.
 
 ---
 
+### `pixi` · `phaser` · `threejs` · `react` · `ecs` · `typescript` · `mobile` · `game-systems` · `web`
+
+**Skills**: the web game-dev / reference skill library — `pixi-*` (PixiJS v8),
+`phaser-*` (Phaser 4), `threejs-*` (Three.js), `react-three-fiber-setup` + `r3f-*`,
+`ecs-*`, `typescript-*`, mobile (`mobile-performance`, `touch-input-handling`,
+`battery-optimization`, `memory-management`), game-systems (`ai-system`,
+`physics-system`, `ui-system`, …), and `web-game-foundations` / `phaser-2d-game`.
+
+These are **knowledge/reference skills**, not phase-gated workflow commands — they
+teach APIs and patterns rather than producing PASS/FAIL verdicts or spawning
+director gates. They are evaluated for technical accuracy and version fidelity,
+not for gate logic.
+
+| Metric | PASS criteria |
+|---|---|
+| **K1 — Frontmatter valid** | Has `name` (matching the folder) and a `description` that names concrete trigger keywords / APIs |
+| **K2 — Runnable examples** | Body contains at least one fenced, syntactically plausible code example for the documented APIs (exception: pure-architecture skills like `web-game-foundations`, `phaser-2d-game`, and the `pixi` router, which are guidance-only by design) |
+| **K3 — API accuracy** | The APIs/classes/methods described exist in the named library and are used correctly; no fabricated APIs |
+| **K4 — Version fidelity** | Claims align with the pinned version (PixiJS v8, Phaser 4, three 0.184 / R3F 9 / drei 10); post-cutoff or version-specific APIs are flagged as verify-against-installed |
+| **K5 — Scope discipline** | The skill stays within its topic and routes adjacent concerns to the right skill/agent (e.g. a 3D request in a Pixi skill points to the Three.js track) |
+
+---
+
 ## Agent Categories
 
 Used to validate agent spec files in `tests/agents/`.

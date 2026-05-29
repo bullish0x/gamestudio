@@ -1438,6 +1438,592 @@ skills:
     priority: high
     category: web
 
+
+  # PixiJS + Phaser 4 official 2D skills (added 2026-05-29)
+
+  - name: phaser-actions-and-utilities
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-actions-and-utilities.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-animations
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-animations.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-audio-and-sound
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-audio-and-sound.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-cameras
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-cameras.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-curves-and-paths
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-curves-and-paths.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-data-manager
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-data-manager.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-events-system
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-events-system.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-filters-and-postfx
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-filters-and-postfx.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-game-object-components
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-game-object-components.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-game-setup-and-config
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-game-setup-and-config.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: phaser
+
+  - name: phaser-geometry-and-math
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-geometry-and-math.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-graphics-and-shapes
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-graphics-and-shapes.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-groups-and-containers
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-groups-and-containers.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-input-keyboard-mouse-touch
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-input-keyboard-mouse-touch.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-loading-assets
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-loading-assets.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-particles
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-particles.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-physics-arcade
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-physics-arcade.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-physics-matter
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-physics-matter.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-render-textures
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-render-textures.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-scale-and-responsive
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-scale-and-responsive.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-scenes
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-scenes.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: phaser
+
+  - name: phaser-sprites-and-images
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-sprites-and-images.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-text-and-bitmaptext
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-text-and-bitmaptext.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-tilemaps
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-tilemaps.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-time-and-timers
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-time-and-timers.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-tweens
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-tweens.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-v3-to-v4-migration
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-v3-to-v4-migration.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: phaser-v4-new-features
+    spec: GameStudio Skill Testing Framework/skills/phaser/phaser-v4-new-features.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: phaser
+
+  - name: pixi
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pixi
+
+  - name: pixi-accessibility
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-accessibility.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-application
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-application.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pixi
+
+  - name: pixi-assets
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-assets.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-blend-modes
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-blend-modes.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-color
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-color.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-core-concepts
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-core-concepts.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: high
+    category: pixi
+
+  - name: pixi-create
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-create.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-custom-rendering
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-custom-rendering.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-environments
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-environments.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-events
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-events.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-filters
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-filters.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-math
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-math.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-migration-v8
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-migration-v8.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-performance
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-performance.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-scene-container
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-scene-container.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-scene-core-concepts
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-scene-core-concepts.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-scene-dom-container
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-scene-dom-container.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-scene-gif
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-scene-gif.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-scene-graphics
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-scene-graphics.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-scene-mesh
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-scene-mesh.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-scene-particle-container
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-scene-particle-container.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-scene-sprite
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-scene-sprite.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-scene-text
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-scene-text.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
+  - name: pixi-ticker
+    spec: GameStudio Skill Testing Framework/skills/pixi/pixi-ticker.md
+    last_static: ""
+    last_static_result: ""
+    last_spec: ""
+    last_spec_result: ""
+    last_category: ""
+    last_category_result: ""
+    priority: medium
+    category: pixi
+
 agents:
   # Tier 1 Directors (Opus)
   - name: creative-director
@@ -1763,6 +2349,20 @@ agents:
 
   - name: pixijs-specialist
     spec: GameStudio Skill Testing Framework/agents/engine/web/pixijs-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  # Web 2D engine specialists (added 2026-05-29)
+
+  - name: phaser-specialist
+    spec: GameStudio Skill Testing Framework/agents/engine/web/phaser-specialist.md
+    last_spec: ""
+    last_spec_result: ""
+    category: engine
+
+  - name: web2d-asset-pipeline
+    spec: GameStudio Skill Testing Framework/agents/engine/web/web2d-asset-pipeline.md
     last_spec: ""
     last_spec_result: ""
     category: engine

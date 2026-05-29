@@ -19,7 +19,7 @@ Four modes:
 - **Refresh**: `/setup-engine refresh` — update reference docs (see Section 10)
 - **Upgrade**: `/setup-engine upgrade [old-version] [new-version]` — migrate to a new engine version (see Section 11)
 
-**Recognized engine keywords**: `godot`, `unity`, `unreal`, `threejs` (Three.js / React Three Fiber — Web 3D), `pixijs` (PixiJS — Web 2D). The web engines use language JS/TS; `/setup-engine threejs` and `/setup-engine pixijs` resolve directly to the templates in Sections 4–5.
+**Recognized engine keywords**: `godot`, `unity`, `unreal`, `threejs` (Three.js / React Three Fiber — Web 3D), `pixijs` (PixiJS — Web 2D interactive), `phaser` (Phaser 4 — Web 2D games). The web engines use language JS/TS; `/setup-engine threejs`, `/setup-engine pixijs`, and `/setup-engine phaser` resolve directly to the templates in Sections 4–5.
 
 ---
 
@@ -192,6 +192,17 @@ Update the Technology Stack section, replacing the `[CHOOSE]` placeholders with 
 > Surface WebGPU vs WebGL renderer (with fallback) as a stack decision — see
 > `pixijs-specialist`.
 
+**For Phaser (Web 2D games):**
+```markdown
+- **Engine**: Phaser [version] (v4+)
+- **Language**: TypeScript (recommended) / JavaScript
+- **Build System**: Vite (or the project's existing web bundler)
+- **Asset Pipeline**: Phaser Loader + manifest-keyed atlases/audio; pin versions in docs/engine-reference/phaser/VERSION.md
+```
+
+> In Phaser 4 WebGL is the default renderer (Canvas is deprecated). Keep gameplay
+> state outside scenes (scenes are thin view adapters) — see `phaser-specialist`.
+
 ---
 
 ## 5. Populate Technical Preferences
@@ -355,6 +366,28 @@ Also populate the `## Engine Specialists` section in `technical-preferences.md` 
 | Custom 2D filter shaders (.glsl/.frag) | webgl-shader-specialist |
 | UI / screen files (DOM/HTML overlays) | ui-programmer |
 | General architecture review | pixijs-specialist |
+```
+
+**For Phaser (Web 2D games):**
+```markdown
+## Engine Specialists
+- **Primary**: phaser-specialist
+- **Language/Code Specialist**: phaser-specialist (TS/JS scene + game code — primary covers it)
+- **Shader Specialist**: webgl-shader-specialist (custom filters / RenderNodes / GLSL)
+- **UI Specialist**: ui-programmer (DOM/HTML UI overlays)
+- **Additional Specialists**: web2d-asset-pipeline (spritesheets/atlases, Spine, compressed 2D textures)
+- **Routing Notes**: Invoke primary for scenes, GameConfig, physics (Arcade/Matter), input, tilemaps, animation/tweens, cameras, and the v4 Filter system. Keep gameplay rules in systems outside scenes (scenes are thin view adapters). Co-develop custom filters with the shader specialist; request assets from web2d-asset-pipeline.
+
+### File Extension Routing
+
+| File Extension / Type | Specialist to Spawn |
+|-----------------------|---------------------|
+| Scene / game code (.ts/.js) | phaser-specialist |
+| Custom filter shaders (.glsl/.frag, RenderNodes) | webgl-shader-specialist |
+| Tilemaps (.tmj/.tmx, Tiled) | phaser-specialist |
+| Spritesheets / atlases / audio assets | web2d-asset-pipeline |
+| UI / screen files (DOM/HTML overlays) | ui-programmer |
+| General architecture review | phaser-specialist |
 ```
 
 ### Collaborative Step

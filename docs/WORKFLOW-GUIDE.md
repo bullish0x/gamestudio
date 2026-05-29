@@ -3,7 +3,7 @@
 > **How to go from zero to a shipped game using the Agent Architecture.**
 >
 > This guide walks you through every phase of game development using the
-> 53-agent system, 130 slash commands, and 12 automated hooks. It assumes you
+> 55-agent system, 183 slash commands, and 12 automated hooks. It assumes you
 > have Claude Code installed and are working from the project root.
 >
 > The pipeline has 7 phases. Each phase has a formal gate (`/gate-check`)
@@ -1422,7 +1422,12 @@ conflicts go to `producer`.
 
 ## Appendix B: Slash Command Quick-Reference
 
-### All 73 Commands by Category
+> Covers the **73 studio workflow commands** below, organized by production
+> phase. The web game-dev skill library (110 more — Three.js, React Three Fiber,
+> ECS, PixiJS, Phaser) is reference knowledge the web engine agents draw on; see
+> `.claude/docs/skills-reference.md` for a per-skill description of all 183.
+
+### Studio Workflow Commands by Category (73)
 
 #### Onboarding and Navigation (6)
 

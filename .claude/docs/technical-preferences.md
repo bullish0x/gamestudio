@@ -75,7 +75,8 @@ Select one via `/setup-engine`; the per-project routing below is filled from the
 | Unity | `unity-specialist` | DOTS/ECS, Shaders/VFX, Addressables, UI Toolkit |
 | Unreal Engine 5 | `unreal-specialist` | GAS, Blueprints, Replication, UMG/CommonUI |
 | Three.js (Web 3D) | `threejs-specialist` | `webgl-shader-specialist`, `web3d-asset-pipeline` |
-| PixiJS (Web 2D) | `pixijs-specialist` | borrows `webgl-shader-specialist` for custom 2D filters |
+| PixiJS (Web 2D interactive) | `pixijs-specialist` | `web2d-asset-pipeline`; borrows `webgl-shader-specialist` for custom 2D filters |
+| Phaser (Web 2D games) | `phaser-specialist` | `web2d-asset-pipeline`; borrows `webgl-shader-specialist` for custom filters |
 
 ### Web Engine Skill Routing
 
@@ -84,9 +85,11 @@ Web engine agents draw on the `.claude/skills/` web game-dev skill library:
 | Agent | Skills it uses |
 |-------|----------------|
 | `threejs-specialist` | R3F (`react-three-fiber-setup`, `r3f-*`), ECS (`ecs-*`), scene (`threejs-scene-setup`, `threejs-camera-controls`), mobile (`mobile-performance`, `touch-input-handling`, `battery-optimization`, `memory-management`), input (`input-system`), lighting (`threejs-lighting`), animation (`threejs-animation`, `threejs-animation-systems`) |
-| `webgl-shader-specialist` | `threejs-shaders`, `threejs-postprocessing` |
+| `webgl-shader-specialist` | 3D: `threejs-shaders`, `threejs-postprocessing` · 2D filters: `pixi-filters`, `phaser-filters-and-postfx` |
 | `web3d-asset-pipeline` | `threejs-loaders`, `threejs-texture-management` |
-| `pixijs-specialist` | `phaser-2d-game` |
+| `pixijs-specialist` | PixiJS interactive: `pixi-application`, `pixi-scene-*` (sprite/graphics/text/mesh/container/particle/dom), `pixi-assets`, `pixi-events`, `pixi-ticker`, `pixi-filters`, `pixi-blend-modes`, `pixi-performance`, `pixi-migration-v8` |
+| `phaser-specialist` | Phaser games: `phaser-scenes`, `phaser-game-setup-and-config`, `phaser-loading-assets`, `phaser-tilemaps`, `phaser-physics-arcade`, `phaser-physics-matter`, `phaser-input-keyboard-mouse-touch`, `phaser-animations`, `phaser-tweens`, `phaser-audio-and-sound`, `phaser-cameras`, `phaser-scale-and-responsive`, `phaser-filters-and-postfx`, `phaser-v3-to-v4-migration`, and the rest of `phaser-*` |
+| `web2d-asset-pipeline` | `pixi-assets`, `phaser-loading-assets` (atlas/spritesheet/Spine/compressed-2D prep) |
 | _all web agents_ | `web-game-foundations` (shared architecture frame) |
 
 ### Project Configuration
